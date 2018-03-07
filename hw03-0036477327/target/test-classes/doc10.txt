@@ -1,0 +1,2 @@
+﻿nevazeca tocka
+{$= _for asd 344.2323.12 asd -asd asd asd  $}

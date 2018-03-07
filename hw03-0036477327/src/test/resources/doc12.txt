@@ -1,0 +1,2 @@
+﻿ne zatvoren string
+{$= _for asd 344.232" \w 3.12 asd -asd asd asd  $}
