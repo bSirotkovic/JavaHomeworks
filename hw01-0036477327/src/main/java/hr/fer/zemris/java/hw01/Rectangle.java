@@ -23,7 +23,7 @@ public class Rectangle {
 				w = Double.parseDouble(args[0]);
 				h = Double.parseDouble(args[1]);
 			} catch (NumberFormatException ex){
-				System.out.println("Predani argumenti su neispravni.%n");
+				System.out.println("Predani argumenti su neispravni.");
 				System.exit(1);
 			}
 			if(!(w > 0 && h > 0)){
@@ -51,7 +51,7 @@ public class Rectangle {
 	 * @return Površina pravokutnika.
 	 */
 	public static double giveArea(double w, double h) {
-		if(w < 0 || h < 0){
+		if(w <= 0 || h <= 0){
 			return 0;
 		}
 		
@@ -65,7 +65,7 @@ public class Rectangle {
 	 * @return Opseg pravokutnika.
 	 */
 	public static double givePerimeter(double w, double h) {
-		if(w < 0 || h < 0){
+		if(w <= 0 || h <= 0){
 			return 0;
 		}
 		
@@ -85,11 +85,11 @@ public class Rectangle {
 		while(true){
 			System.out.print("Unesite "+ side +" > ");
 
-			if(!sc.hasNextInt()){
+			if(!sc.hasNextDouble()){
 				System.out.println(sc.next() + " se ne može protumačiti kao cijeli broj.");
 				continue;
 			}
-			res = sc.nextInt();
+			res = sc.nextDouble();
 
 			if(res > 0) {
 				break;
