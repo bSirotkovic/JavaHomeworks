@@ -1,2 +1,0 @@
-﻿neispravan znak u tagu
-{$ 34for asd asd % asd asd  $}

@@ -1,2 +1,0 @@
-﻿neispravni var
-{$= _for asd asd asd asd asd  $}

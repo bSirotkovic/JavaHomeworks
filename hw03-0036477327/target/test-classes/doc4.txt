@@ -1,4 +1,0 @@
-﻿{$ for i i i $}
-malo tekst
-{$= malo echo  $}
-i sad nema enda
