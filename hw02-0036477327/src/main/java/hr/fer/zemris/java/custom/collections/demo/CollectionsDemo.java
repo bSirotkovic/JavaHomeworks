@@ -27,11 +27,6 @@ public class CollectionsDemo {
 			}
 		};
 		
-		List<Integer> myList = new LinkedList<Integer>();
-		myList.add(e);
-		
-		
-		
 		ArrayIndexedCollection col = new ArrayIndexedCollection(2);
 		col.add(new Integer(20));
 		col.add("New York");

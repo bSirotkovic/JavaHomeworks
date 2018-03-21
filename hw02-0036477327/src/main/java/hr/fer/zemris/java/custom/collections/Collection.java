@@ -21,10 +21,7 @@ public class Collection {
 	 * @return Returns true if size of the collection is 0. False otherwise.
 	 */
 	public boolean isEmpty(){
-		if(this.size() == 0){
-			return true;
-		}
-		return false;
+		return this.size() == 0;
 	}
 	
 	/**
